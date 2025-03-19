@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* 保留之前的样式 */
+        .literature-container { max-width: 800px; margin: 2rem auto; font-family: Arial, sans-serif; }
+        .literature-item { background: #f8f9fa; padding: 1.5rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .authors { color: #2c3e50; font-size: 0.95em; margin-bottom: 0.5rem; }
+        .title { color: #2c3e50; font-weight: 600; margin-bottom: 0.5rem; }
+        .journal { color: #7f8c8d; font-style: italic; font-size: 0.9em; }
+        .year { color: #e74c3c; font-weight: bold; }
+        .link { margin-top: 0.5rem; display: block; }
+        a { color: #2980b9; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="literature-container" id="container"></div>
+
+    <script>
+        // 文献格式要求（ref.txt示例）：
+        // 每行一条文献，字段用 | 分隔：
+        // 作者|标题|期刊|年份|卷号|页码|DOI链接
+        
+        async function loadLiterature() {
+            try {
+                const response = await fetch('ref.txt');
+                const data = await response.text();
+                const entries = data.split('\n').filter(line => line.trim() !== '');
+
+                const literature = entries.map(line => {
+                    const [authors, title, journal, year, volume, pages, link] = line.split('|');
+                    return { authors, title, journal, year: parseInt(year), volume, pages, link };
+                });
+
+                // 按年份排序
+                literature.sort((a, b) => a.year - b.year);
+
+                // 生成HTML
+                const container = document.getElementById('container');
+                literature.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'literature-item';
+                    div.innerHTML = `
+                        <div class="authors">${item.authors}</div>
+                        <div class="title">${item.title}</div>
+                        <div class="journal">
+                            ${item.journal}, 
+                            <b>${item.volume}</b> (${item.year}), ${item.pages}
+                        </div>
+                        <div class="link">
+                            <a href="${item.link}" target="_blank">View Article</a>
+                        </div>
+                    `;
+                    container.appendChild(div);
+                });
+
+            } catch (error) {
+                console.error('Error loading literature:', error);
+                container.innerHTML = '<p>Error loading literature data</p>';
+            }
+        }
+
+        // 页面加载时执行
+        window.onload = loadLiterature;
+    </script>
+</body>
+</html>
