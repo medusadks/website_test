@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.publications-container {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.pub-year {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.publication {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-left: 4px solid #007bff;
+    background-color: #f8f9fa;
+}
+
+.pub-title {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.authors {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.journal {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.left-column, .right-column {
+    flex: 1;
+}
+
+.dimensions {
+    margin-bottom: 15px;
+}
+
+.chemical-formula {
+    color: #e74c3c;
+    font-family: monospace;
+}
+
+.exciton-diagram {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.diagram-item {
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.chalcogen-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.chalcogen-item {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.charge-transfer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.arrow {
+    font-size: 1.2em;
+}
+</style>
+</head>
+<body>
+<div class="publications-container">
+    <h1>Publications</h1>
+    <div class="pub-year">2024</div>
+
+    <!-- Publication 1 -->
+    <div class="publication">
+        <h2 class="pub-title">Exciton transport in perovskite materials</h2>
+        <div class="authors">T.J. Sheehan*, S. Saris*, W.A. Tisdale</div>
+        <div class="journal">Adv. Mater. 2415757 (2024)</div>
+        <div class="content-wrapper">
+            <div class="left-column">
+                <div class="dimensions">
+                    <h3>Perovskite Materials</h3>
+                    <div class="chemical-formula">ABX<sub>3</sub> (bulk)</div>
+                    <div>A = BC, MA; FA*</div>
+                    <div>B = Pb, Sn</div>
+                    <div>X = Cl, Br, I</div>
+                </div>
+            </div>
+            <div class="right-column">
+                <h3>Exciton Dynamics and Transport</h3>
+                <div class="exciton-diagram">
+                    <div class="diagram-item">Exciton dissociation</div>
+                    <div class="diagram-item">Transport mechanisms</div>
+                    <div class="diagram-item">Light emission</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Publication 2 -->
+    <div class="publication">
+        <h2 class="pub-title">Mixed-chalcogen 2D silver phenylchalcogenides</h2>
+        <div class="authors">W.S. Lee, Y. Cho, W. Paritmongkol, et al.</div>
+        <div class="journal">ACS Nano 18, 35066-35074 (2024)</div>
+        <div class="chalcogen-grid">
+            <div class="chalcogen-item">S</div>
+            <div class="chalcogen-item">Se</div>
+            <div class="chalcogen-item">Te</div>
+        </div>
+        <div class="chemical-formula">AgE<sub>1-x</sub>E'Ph</div>
+    </div>
+
+    <!-- Publication 3 -->
+    <div class="publication">
+        <h2 class="pub-title">Triple exciton sensitization of silicon</h2>
+        <div class="authors">N. Nagaya, A. Alexiu, C.F. Perkinson, et al.</div>
+        <div class="journal">Adv. Mater. 2415110 (2024)</div>
+        <div class="charge-transfer">
+            <span>Tetracene</span>
+            <span class="arrow">→</span>
+            <span>HfO<sub>x</sub>N<sub>y</sub></span>
+            <span class="arrow">→</span>
+            <span>n-Silicon</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

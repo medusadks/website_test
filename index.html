@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST Lab @ NJU</title>
+    <style>
+        /* ========== CSS 变量 ========== */
+        :root {
+            --mit-blue: #00274C;        /* MIT品牌主色 */
+            --accent-gray: #6c757d;     /* 辅助文本灰色 */
+            --section-bg: #F8F9FA;      /* 内容区块背景 */
+        }
+
+        /* ========== 基础样式 ========== */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* ========== 头部样式 ========== */
+        .lab-header {
+            background: var(--mit-blue);
+            padding: 1.5rem 2rem;
+            border-bottom: 3px solid #fff;
+        }
+
+        .lab-title {
+            color: white;
+            margin: 0;
+            font-size: 2.2rem;
+            letter-spacing: 1.5px;
+        }
+
+        .lab-tagline {
+            color: rgba(255,255,255,0.9);
+            font-size: 1.1rem;
+            margin: 0.3rem 0 0;
+        }
+
+        /* ========== 导航栏样式 ========== */
+        .nav-container {
+            margin-top: 1.0rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: opacity 0.3s;
+        }
+
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+
+        /* ========== 主体布局 ========== */
+        .main-container {
+            display: grid;
+            grid-template-columns: 2.5fr 1fr;
+            gap: 1rem;
+            max-width: 1300px;
+            margin: 1rem auto;
+            padding: 0 -50rem;
+        }
+
+        /* ========== 主图区域 ========== */
+        .group-section {
+            position: relative;
+        }
+
+        .main-photo {
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        /* ========== 图片导航按钮 ========== */
+        .nav-positioner {
+            position: relative;
+            bottom: -5px;
+            left: 0;
+            right: 0;
+            z-index: 10;
+        }
+
+        .number-nav {
+            display: flex;
+            justify-content: center;
+            gap: 0.3rem;
+        }
+
+        .nav-number {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: var(--mit-blue);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid white;
+            font-size: 14px;
+        }
+
+        .nav-number.active {
+            background: #9D72FF;
+            transform: scale(1.1);
+        }
+
+        /* ========== 新闻区块样式 ========== */
+        .news-container {
+			background: white;
+			padding: 0.5rem;
+			border-radius: 8px;
+			box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+			
+			/* 高度控制 */
+			height: 120vh;       /* 视口高度比例 */ 
+			max-height: 750px;  /* 最大高度限制 */
+			
+			/* 内容布局 */
+			display: flex;
+			flex-direction: column;
+		}
+		/* 新增标题栏容器样式 */
+		.news-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+			margin-bottom: 1rem;
+			padding-bottom: 0.1rem;
+			border-bottom: 1px solid var(--mit-blue);
+		}
+
+		.news-title {
+			color: var(--mit-blue);
+			font-size: 1.2rem;
+			margin: 0;
+		}
+
+		/* ========== 新闻条目行间距控制 ========== */
+		.news-item {
+			margin-bottom: 0.5rem;  /* 条目间距从0.1rem→1.2rem */
+			padding: 1rem;
+			line-height: 1.2;       /* 整体行高 */
+		}
+		
+		.news-item h3 {
+			margin: 0 0 0.5rem 0;  /* 标题下方间距 */
+			line-height: 1.3;       /* 标题行高 */
+		}
+		
+		.news-date {
+			display: block;
+			margin-bottom: 0.5rem;    /* 日期间距从0.5→1rem */
+			line-height: 1.2;
+		}
+		
+		.news-content {
+			line-height: 1.2;      /* 正文行高 */
+			margin: 0.5rem 0;      /* 段落间距 */
+		}
+		
+		.read-more {
+			display: inline-block;
+			margin-top: 0.3rem;   /* "Read More"链接上间距 */
+		}
+
+        /* ========== 查看全部链接样式 ========== */
+        .view-all {
+            color: var(--mit-blue);
+			font-weight: 600;
+			text-decoration: none;
+			font-size: 0.95rem;
+			transition: opacity 0.3s;
+			padding-left: 1rem;
+        }
+
+        .view-all:hover {
+            opacity: 0.2;
+        }
+		
+		/*实验室介绍*/
+		.lab-intro {
+            margin-top: 1.0rem;
+            padding: 1.0rem;
+            background: var(--section-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+			/* 高度控制 */
+			min-height: 100px;  /* 最小高度 */
+			height: 43vh;       /* 视口高度比例 */
+			max-height: 600px;  /* 最大高度限制 */
+			
+			/* 内容溢出处理 */
+			overflow-y: auto;   /* 内容过长时显示滚动条 */
+        }
+
+        .intro-title {
+            color: var(--mit-blue);
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--mit-blue);
+            padding-bottom: 0.5rem;
+        }
+
+        .poem-container {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            color: var(--accent-gray);
+            text-align: center;
+            font-style: italic;
+        }
+
+        .poem-title {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .poem-author {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- 页面头部 -->
+    <header class="lab-header">
+        <h1 class="lab-title">TEST Lab @ NJU</h1>
+        <p class="lab-tagline">Nonlinear Photon</p>
+        
+        <!-- 主导航菜单 -->
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <li><a href="./people/people_test.html">People</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#teaching">Teaching & Outreach</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#join">Join Us!</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 页面主体内容 -->
+    <main class="main-container">
+        <!-- 左侧图片轮播区 -->
+        <section class="group-section">
+            <img id="mainPhoto" class="main-photo" src="./fig/1.jpg" alt="Research Team">
+            <div class="nav-positioner">
+                <div class="number-nav">
+                    <!-- 图片导航按钮 (1-5) -->
+                    <div class="nav-number active" onclick="switchPhoto(1)">1</div>
+                    <div class="nav-number" onclick="switchPhoto(2)">2</div>
+                    <div class="nav-number" onclick="switchPhoto(3)">3</div>
+                    <div class="nav-number" onclick="switchPhoto(4)">4</div>
+                    <div class="nav-number" onclick="switchPhoto(5)">5</div>
+                </div>
+            </div>
+			
+			            <!-- 新增实验室介绍区块 -->
+            <div class="lab-intro">
+                <h2 class="intro-title">INTRODUCION</h2>
+                <div class="poem-container">
+                    <div class="poem-title">定风坡</div>
+                    <p>莫听穿林打叶声，何妨吟啸且徐行<br>
+                    竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生<br>
+                    料峭春风吹酒醒，微冷，山头斜照却相迎<br>
+                    回首向来萧瑟处，归去，也无风雨也无晴</p>
+                    <div class="poem-author">—— 苏轼 · 宋</div>
+                </div>
+            </div>
+        </section>
+		
+		
+
+        <!-- 右侧新闻容器 -->
+        <section class="news-container" id="latest-news">
+            <!-- 新闻内容由JavaScript动态生成 -->
+        </section>
+    </main>
+
+    <script>
+        // ================= 新闻数据存储 =================
+        /**
+         * 新闻数据数组
+         * @type {Array<{
+         *   title: string,
+         *   date: string,
+         *   content: string,
+         *   fullArticle: string
+         * }>}
+         */
+        const newsData = [
+            {
+                title: "Thomas wins poster prize at 2023 MRS Fall Meeting",
+                date: "12/15/2023",
+                content: "TEST Lab PhD student Thomas Sheaugh won first prize for his poster presentation...",
+                fullArticle: "news/thomas-prize.html"
+            },
+            {
+                title: "Naruwi wins Graduate Student Award at AICHE 2023",
+                date: "11/20/2023",
+                content: "TEST lab PhD student Narumi Nagaya Wong won first place in...",
+                fullArticle: "news/naruwi-award.html"
+            },
+            {
+                title: "New Research Breakthrough Published in Nature",
+                date: "10/10/2023",
+                content: "Our latest research on nanoscale energy transport has been published...",
+                fullArticle: "news/nature-paper.html"
+            },
+            {
+                title: "Lab Receives NSF Grant for New Equipment",
+                date: "09/01/2025",
+                content: "We're excited to announce new funding from the National Science Foundation...",
+                fullArticle: "news/nsf-grant.html"
+            }
+        ];
+
+        // ================= 实用函数 =================
+        /**
+         * 日期排序函数（降序排列）
+         * @param {Object} a - 第一个新闻项
+         * @param {Object} b - 第二个新闻项
+         * @returns {number} 排序结果
+         */
+        function sortByDate(a, b) {
+            return new Date(b.date) - new Date(a.date);
+        }
+
+        // ================= 新闻渲染逻辑 =================
+        /**
+         * 渲染最新新闻列表
+         */
+		function renderLatestNews() {
+			const container = document.getElementById('latest-news');
+			
+			// 创建标题栏容器
+			const header = document.createElement('div');
+			header.className = 'news-header';
+			
+			// 添加标题
+			const title = document.createElement('h2');
+			title.className = 'news-title';
+			title.textContent = 'LATEST NEWS';
+			
+			// 创建查看全部链接
+			const viewAllLink = document.createElement('a');
+			viewAllLink.href = 'news-archive.html';
+			viewAllLink.className = 'view-all';
+			viewAllLink.textContent = 'View All →';
+			
+			// 组装标题栏
+			header.appendChild(title);
+			header.appendChild(viewAllLink);
+			
+			// 清空现有内容并添加新内容
+			container.innerHTML = '';
+			container.appendChild(header);
+			
+			// 排序并获取最新3条
+			const sortedNews = [...newsData].sort(sortByDate);
+			const latestThree = sortedNews.slice(0, 3);
+		
+			// 创建新闻条目
+			latestThree.forEach(item => {
+				const article = document.createElement('article');
+				article.className = 'news-item';
+				article.innerHTML = `
+					<h3>${item.title}</h3>
+					<span class="news-date">${item.date}</span>
+					<p class="news-content">${item.content}</p>
+					<a href="${item.fullArticle}" class="read-more" target="_blank">Read More →</a>
+				`;
+				container.appendChild(article);
+			});
+		}
+
+        // ================= 图片轮播系统 =================
+        let currentIndex = 1;
+        const totalPhotos = 5;
+        let autoPlayInterval;
+
+        /**
+         * 切换展示图片
+         * @param {number} number - 图片序号 (1-5)
+         */
+        function switchPhoto(number) {
+            clearInterval(autoPlayInterval);
+            currentIndex = number;
+            updatePhoto();
+            startAutoPlay();
+        }
+
+        /** 更新当前显示的图片 */
+        function updatePhoto() {
+            const photos = [
+                "./fig/1.jpg",
+                "./fig/2.jpg",
+                "./fig/3.jpg",
+                "./fig/4.jpg",
+                "./fig/5.jpg"
+            ];
+            document.getElementById('mainPhoto').src = photos[currentIndex - 1];
+            
+            // 更新按钮激活状态
+            document.querySelectorAll('.nav-number').forEach((btn, index) => {
+                btn.classList.toggle('active', index === currentIndex - 1);
+            });
+        }
+
+        /** 切换到下一张图片 */
+        function nextPhoto() {
+            currentIndex = currentIndex % totalPhotos + 1;
+            updatePhoto();
+        }
+
+        /** 启动自动播放 */
+        function startAutoPlay() {
+            autoPlayInterval = setInterval(nextPhoto, 2000);
+        }
+
+        // ================= 页面初始化 =================
+        /**
+         * 初始化页面功能
+         */
+        function init() {
+            // 初始化图片轮播
+            startAutoPlay();
+            
+            // 初始化新闻列表
+            renderLatestNews();
+
+            // 处理页面可见性变化
+            document.addEventListener('visibilitychange', () => {
+                if (document.hidden) {
+                    clearInterval(autoPlayInterval);
+                } else {
+                    startAutoPlay();
+                }
+            });
+        }
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+First author publications (‡equation contribution)
+(1) N. Mao, S. Huang, H. Yan, X. Ling, L. Liang*, J. Kong*, W. A. Tisdale*, Fermi Resonance in Atomically-thin Black
+Phosphorus, in preparation.
+(2) N. Mao‡, Y. Luo‡, M.-H. Chiu, C. Shi, X. Ji, T. S. Pieshkov, Y. Lin, H.-L. Tang, A. J. Akey, J. A. Gardener, J.-H. Park, V.
+Tung, X. Ling, X. Qian, W. L. Wilson, Y. Han*, W. A. Tisdale*, J. Kong*, Giant Nonlinear Optical Response in In-Plane
+Ferroelectric SnSe, Adv. Mater., 2023, n/a (n/a), 2210894.Link
+(3) Y. Luo‡, N. Mao‡, D. Ding, M.-H. Chiu, X. Ji, K. Watanabe, T. Taniguchi, V. Tung, H. Park, P. Kim, J. Kong and W. L.
+Wilson*, Electrically Switchable Anisotropic Polariton Propagation in A Ferroelectric van der Waal Semiconductor,
+Nature Nanotechnol., Nat. Nanotechnol. 18 (2023), 350-356. Link
+(4) N. Mao, Y. Lin, Y.-Q. Bie, T. Palacios, L. Liang, R. Saito, X. Ling, J. Kong, W. A. Tisdale, Resonance-Enhanced
+Excitation of Interlayer Vibrations in Atomically Thin Black Phosphorus, Nano Lett. 21 (2021), 4809-4815. Link
+(5) N. Wang‡, N. Mao‡, Z. Wang, X. Yang, X. Zhou, H. Liu, S. Qiao, X. Lei, J. Wang, H. Xu, X. Ling, Q. Zhang, Q. Feng,
+J. Kong, Electrochemical Delamination of Ultralarge Few-Layer Black Phosphorus with a Hydrogen-Free Intercalation
+Mechanism. Adv. Mater., 33 (2021), 2005815.Link
+(6) N. Mao‡, X. Wang‡, Y. Lin, B. G. Sumpter, Q. Ji, T. Palacios, S. Huang, V. Meunier, M. S. Dresselhaus, W. A. Tisdale,
+L. Liang, X. Ling, J. Kong, Direct Observation of Symmetry-Dependent Electron–Phonon Coupling in Black
+Phosphorus. J. Am. Chem. Soc., 141(2019), 18994-19001.Link
+(7) X. Wang‡, N. Mao‡, W. Luo, H. Kitadai, X. Ling, Anomalous Phonon Modes in Black Phosphorus Revealed by
+Resonant Raman Scattering, J. Phys. Chem. Lett., 9 (2018), 2830-2837.Link
+(8) W. S. Leong‡, Q. Ji‡, N. Mao‡, Y. Han, H. Wang, A. J. Goodman, A. Vignon, C. Su, Y. Guo, P.-C. Shen, Z. Gao, D. A.
+Muller, W. A. Tisdale, J. Kong, Synthetic Lateral Metal-Semiconductor Heterostructures of Transition Metal Disulfides,
+J. Am. Chem. Soc., 140 (2018), 12354-12358.Link
+(9) N. Mao, J. Tang, L. Xie, J. Wu, B. Han, J. Lin, S. Deng, W. Ji, H. Xu, K. Liu, L. Tong, and J. Zhang, Optical Anisotropy
+of Black Phosphorus in the Visible Regime, J. Am. Chem. Soc., 138 (2015), 300-305. Link
+ESI highly cited paper
+(10) J. Wu‡, N. Mao‡, L. Xie, H. Xu, and J. Zhang, Identifying the Crystalline Orientation of Black Phosphorus Using
+Angle-Resolved Polarized Raman Spectroscopy, Angew. Chem. Int. Ed., 54 (2015), 2366-69. Link
+ESI highly cited paper(11) N. Mao, Y. Chen, D. Liu, J. Zhang, and L.M. Xie, Solvatochromic Effect on the Photoluminescence of MoS2
+Monolayers, Small, 9 (2013), 1312-15.Link
+(12) N. Mao, J. Wu, B. Han, J. Lin, L. Tong, and J. Zhang, Birefringence-Directed Raman Selection Rules in the
+Two-Dimensional Black Phosphorus Crystal, Small, 19 (2016), 2627-33.Link
+(13) N. Mao, S. Zhang, J. Wu, H. Tian, J. Wu, H. Xu, H. Peng, L. Tong, Investigation of Black Phosphorus as a Nano-optical
+Polarization Element by Polarized Raman Spectroscopy, Nano Res.,11 (2017), 3154-3163.Link
+(14) (Invited review) N. Mao, S. Zhang, J. Wu, J. Zhang, L. Tong, Lattice Vibration and Raman Scattering in Anisotropic
+Black Phosphorus Crystals, Small Methods, 0 (2018), 1700409.Link
+◆ Second Harmonic Generation
+(15) Z. Zheng, Q. Ma, Z. Bi, S. de la Barrera, M.-H. Liu, N. Mao, Y. Zhang, N. Kiper, K. Watanabe, T. Taniguchi, J. Kong, W.
+A. Tisdale, R. Ashoori, N. Gedik, L. Fu, S.-Y. Xu, P. Jarillo-Herrero, Unconventional Ferroelectricity in Moiré
+Heterostructures. Nature, 588 (2020), 71-76.Link
+ESI highly cited paper,
+(16) Q. Ji, C. Su, N. Mao, X. Tian, J.-C. Idrobo, J. Miao, W. A. Tisdale, A. Zettl, J. Li, J. Kong, Revealing the
+Brønsted-Evans-Polanyi Relation in Halide-activated Fast MoS2 Growth Toward Millimeter-sized 2D Crystals. Sci. Adv.
+7 (2021), eabj3274. Link
+(17) P.-C. Shen, C. Su, Y. Lin, A.-S. Chou, C.-C. Cheng, J.-H. Park, M.-H. Chiu, A.-Y. Lu, H.-L. Tang, M. M. Tavakoli, G.
+Pitner, X. Ji, Z. Cai, N. Mao, J. Wang, V. Tung, J. Li, J. Bokor, A. Zettl, C.-I. Wu, T. Palacios, L.-J. Li, J. Kong, Ultralow
+contact resistance between semimetal and monolayer semiconductors. Nature 593 (2021), 211-217.Link
+ESI highly cited paper, Hot paper
+(18) P.-C. Shen, Y. Lin, C. Su, C. McGahan, A.-Y. Lu, X. Ji, X. Wang, H. Wang, N. Mao, Y. Guo, J.-H. Park, Y. Wang, W.
+Tisdale, J. Li, X. Ling, K. E. Aidala, T. Palacios, J. Kong, Healing of donor defect states in monolayer molybdenum
+disulfide using oxygen-incorporated chemical vapour deposition. Nature Electron. 5 (2022), 28-36.Link
+◆ 2D Ferroelectric Materials
+(19) C. Shi, N. Mao, J. Kong, Y Han, Uncovering In-Plane Domain Structures in Two-Dimensional Ferroelectric SnSe Using
+Machine-Learning Assisted 4D-STEM, Microsc. Microanal. 28 (2022), 374-375. Link
+◆ Liquid Exfoliation of 2D Materials
+(20) K. Zhou, N. Mao, H. Wang, Y. Peng, and H. Zhang, A Mixed-Solvent Strategy for Efficient Exfoliation of Inorganic
+Graphene Analogues, Angew. Chem. Int. Ed., 50 (2011), 10839-42. Link
+◆ Raman/ Photoluminescence Spectroscopy of 2D Materials
+(21) B. Xu, N. Mao, Y. Zhao, L. Tong, J. Zhang, Polarized Raman Spectroscopy for Determining Crystallographic
+Orientation of Low-Dimensional Materials. J. Phys. Chem. Lett., 12(2021), 7442-7452. Link
+(22) Q. Feng, N. Mao, J. Wu, H. Xu, C. Wang, J. Zhang, and L. Xie, Growth of MoS2(1-x)Se2x (X=0.41-1.00) Monolayer
+Alloys with Controlled Morphology by Physical Vapor Deposition, ACS Nano, 9 (2015), 7450-55.Link
+(23) S. Zhang, N. Mao, J. Wu, L. Tong, J. Zhang, Z. Liu, In-Plane Uniaxial Strain in Black Phosphorus Enables the
+Identification of Crystalline Orientation. Small, 13(2017), 1700466.Link
+(24) S. Zhang, N. Mao, N. Zhang, J. Wu, L. Tong, J. Zhang, Anomalous Polarized Raman Scattering and Large Circular
+Intensity Differential in Layered Triclinic ReS2. ACS Nano, 11(2017), 10366-10372.Link
+(25) W. Luo, A. D. Oyedele, N. Mao, A. Puretzky, K. Xiao, L. Liang, X. Ling, Excitation-Dependent Anisotropic Raman
+Response of Atomically Thin Pentagonal PdSe2. ACS Physical Chemistry Au, 2(2022), 482-489.Link
+(26) Y. Chen, D.O. Dumcenco, Y. Zhu, X. Zhang, N. Mao, Q. Feng, M. Zhang, J. Zhang, P. Tan, Y. Huang, and L. Xie,
+Composition-Dependent Raman Modes of Mo1-XWxS2 Monolayer Alloys, Nanoscale, 6 (2014), 2833-39.Link
+(27) Q. Feng, Y. Zhu, J. Hong, M. Zhang, W. Duan, N. Mao, J. Wu, H. Xu, F. Dong, F. Lin, C. Jin, C. Wang, J. Zhang, and L.
+Xie, Growth of Large-Area 2D MoS2(1-x)Se2, Semiconductor, Adv. Mater., 26 (2014), 2648-53.Link
+ESI highly cited paper
+(28) Xia, J., X.-Z. Li, X. Huang, N. Mao, D.-D. Zhu, L. Wang, H. Xu and X.-M. Meng Physical Vapor Deposition Synthesis
+of Two-Dimensional Orthorhombic SnS Flakes with Strong Angle/Temperature-Dependent Raman Responses.
+Nanoscale 8 (2016), 2063-2070.Link
+ESI highly cited paper
+(29) A.-Y. Lu, L. G. P. Martins, P.-C. Shen, Z. Chen, J.-H. Park, M. Xue, J. Han, N. Mao, M.-H. Chiu, T. Palacios, V. Tung, J.
+Kong, Unraveling the Correlation between Raman and Photoluminescence in Monolayer MoS2 through
+Machine-Learning Models. Adv. Mater. 34 (2022), 2202911.Link
+(30) H. Xu, J. Wu, Q. Feng, N. Mao, C. Wang, and J. Zhang, High Responsivity and Gate Tunable Graphene-MoS2 Hybrid
+Phototransistor, Small, 10 (2014), 2300-06.Link
+(31) M. Zhang, J. Wu, Y. Zhu, D.O. Dumcenco, J. Hong, N. Mao, S. Deng, Y. Chen, Y. Yang, C. Jin, S. Chaki, Y. Huang, J.
+Zhang, and L. Xie, Two-Dimensional Molybdenum Tungsten Diselenide Alloys: Photoluminescence, Raman Scattering,
+and Electrical Transport, ACS Nano, 8 (2014), 7130-37.Link
+(32) J. Hong, Z. Hu, M. Probert, K. Li, D. Lv, X. Yang, L. Gu, N. Mao, Q. Feng, L. Xie, J. Zhang, D. Wu, Z. Zhang, C. Jin,
+W. Ji, X. Zhang, J. Yuan, and Z. Zhang, Exploring Atomic Defects in Molybdenum Disulphide Monolayers, Nat.Commun., 6 (2015).Link
+ESI highly cited paper
+(33) X. Li, J. Wu, N. Mao, J. Zhang, Z. Lei, Z. Liu, and H. Xu, A Self-Powered Graphene-MoS2 Hybrid Phototransistor with
+Fast Response Rate and High on-Off Ratio, Carbon, 92 (2015), 126-32.Link
+(34) Y. Wan, H. Zhang, W. Wang, B. Sheng, K. Zhang, Y. Wang, Q. Song, N. Mao, Y. Li, X. Wang, J. Zhang, and L. Dai,
+Origin of Improved Optical Quality of Monolayer Molybdenum Disulfide Grown on Hexagonal Boron Nitride Substrate,
+Small, 12(2015), 198-203.Link
+◆ Graphene-enhanced Raman Scattering
+(35) W. Xu, N. Mao, and J. Zhang, Graphene: A Platform for Surface-Enhanced Raman Spectroscopy, Small, 9 (2013),
+1206-24. (Review) Link
+ESI highly cited paper
+(36) X. Ling, S. Huang, S. Deng, N. Mao, J. Kong, M.S. Dresselhaus, and J. Zhang, Lighting up the Raman Signal of
+Molecules in the Vicinity of Graphene Related Materials, Acc. Chem. Res., 48 (2015), 1862-70. (Review) Link
+(37) J. Lin, L. Liang, X. Ling, S. Zhang, N. Mao, N. Zhang, B.G. Sumpter, V. Meunier, L. Tong, J. Zhang, Enhanced Raman
+Scattering on in-Plane Anisotropic Layered Materials. J. Am. Chem. Soc., 137 (2015), 15511-15517.Link
+◆ TEM Characterization
+(38) R. Du, N. Zhang, H. Xu, N. Mao, W. Duan, J. Wang, Q. Zhao, Z. Liu, and J. Zhang, Cmp Aerogels:
+Ultrahigh-Surface-Area Carbon-Based Monolithic Materials with Superb Sorption Performance, Adv. Mater., 26 (2014),
+8053-+.Link
+(39) R. Du, N. Zhang, J. Zhu, Y. Wang, C. Xu, Y. Hu, N. Mao, H. Xu, W. Duan, L. Zhuang, L. Qu, Y. Hou, and J. Zhang,
+Nitrogen-Doped Carbon Nanotube Aerogels for High-Performance ORR Catalysts, Small, 11 (2015), 3903-08.
